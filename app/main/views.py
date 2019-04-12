@@ -40,7 +40,7 @@ def movie(id):
     movie = get_movie(id)
     title = f'{movie.title}'
 
-    return render_template('movie.html',title = title,movie = movie)
+    return render_template('movie.html',title = title,movie = movie,reviews = reviews)
 
 @main.route('/search/<movie_name>')
 def search(movie_name):
