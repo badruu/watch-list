@@ -29,7 +29,7 @@ def get_movies(category):
                 movie_results_list = get_movies_response['results']
                 movie_results = process_results(movie_results_list)
 
-        return movie_results
+    return movie_results    
 
 
 def get_movie(id):
