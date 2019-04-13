@@ -26,7 +26,7 @@ class Review:
 
     @classmethod
     def clear_reviews(cls):
-        review.all_reviews.clear()
+        Review.all_reviews.clear()
 
     @classmethod
     def get_reviews(cls,id):
